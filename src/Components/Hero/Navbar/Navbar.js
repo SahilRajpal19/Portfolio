@@ -21,7 +21,7 @@ const navItems = [
   { label: "About Me", path: "/About" },
   { label: "Projects", path: "/projects" },
   { label: "Contact", path: "/contact" },
-  { label: "Resume", path: "/Gurdarshan_Singh_Resume.pdf", download: true },
+  { label: "Resume", path: "/Sahil_Rajpal_Resume.pdf", download: true },
 ];
 
 function Navbar(props) {
@@ -35,7 +35,7 @@ function Navbar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        Gurdarshan Singh
+        Sahil Rajpal
       </Typography>
       <Divider />
       <List>
